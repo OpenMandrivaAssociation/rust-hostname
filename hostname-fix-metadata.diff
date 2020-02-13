@@ -1,0 +1,8 @@
+--- hostname-0.1.5/Cargo.toml	1970-01-01T00:00:00+00:00
++++ hostname-0.1.5/Cargo.toml	2019-06-21T19:37:03.848369+00:00
+@@ -30,5 +30,3 @@
+ unstable = []
+ [target."cfg(any(unix, target_os = \"redox\"))".dependencies.libc]
+ version = "^0.2"
+-[target."cfg(windows)".dependencies.winutil]
+-version = "^0.1.1"
